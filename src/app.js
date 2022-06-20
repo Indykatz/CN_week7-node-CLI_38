@@ -21,7 +21,6 @@ const TheApp = (argvArray) => {
     if (argvArray[i] === "--title" && argvArray[i + 2] === "--actor") {
       const movieObj = new Movie(argvArray[i + 1], argvArray[i + 3]);
       movieObj.add();
-      i += 3;
     }
   }
 };
