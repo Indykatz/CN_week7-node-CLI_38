@@ -16,5 +16,8 @@
     "url": "https://github.com/Indykatz/CN_week7-node-CLI_38/issues"
   },
   "homepage": "https://github.com/Indykatz/CN_week7-node-CLI_38#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }
